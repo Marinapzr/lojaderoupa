@@ -1,77 +1,63 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:weight;
-    font-style: normal;
-    font-variation-settings: "slnt" 0;
-    font-weight: normal;
-  }
-
-  header {
-    background-color: rgb(112, 52, 153);
-    height: 28vh;
-  } 
-
-    header li{
-           display: inline-block;
-            margin-left: 10%;
-            margin-top: 85px;
-            color:white;
-        }
-
- .roupas div {
-   display: inline-block;
-    margin-left: 140px;
-    margin-top: 60px;
-  
-  }
-  
-
-  .roupas img {
-    width: 200px; 
-   margin-top: 30px;
-  }
-  
-
-  h3{
-    margin-left: 55px;
-    margin-top: 20px;
+  margin: 0; /* Remove margens de todos os elementos */
+  padding: 0; /* Remove preenchimento de todos os elementos */
+  box-sizing: border-box; /* Inclui padding e border no tamanho total dos elementos */
+  font-family: "Inter", sans-serif; /* Define a fonte para "Inter" com fallback para sans-serif */
+  font-optical-sizing: auto; /* Ajusta a renderização da fonte automaticamente para melhorar a legibilidade */
+  font-weight: normal; /* Define o peso da fonte como normal */
+  font-style: normal; /* Define o estilo da fonte como normal */
+  font-variation-settings: "slnt" 0; /* Define as configurações de variação da fonte */
 }
-  
+
+header {
+  background-color: rgb(112, 52, 153); /* Define a cor de fundo do cabeçalho */
+  height: 28vh; /* Define a altura do cabeçalho em 28% da altura da viewport */
+}
+
+header li {
+  display: inline-block; /* Exibe os itens da lista em linha */
+  margin-left: 10%; /* Adiciona margem à esquerda */
+  margin-top: 85px; /* Adiciona margem no topo */
+  color: white; /* Define a cor do texto como branco */
+}
+
+.roupas div {
+  display: inline-block; /* Exibe os itens de roupa em linha */
+  margin-left: 140px; /* Adiciona margem à esquerda */
+  margin-top: 60px; /* Adiciona margem no topo */
+}
+
+.roupas img {
+  width: 200px; /* Define a largura das imagens */
+  margin-top: 30px; /* Adiciona margem no topo das imagens */
+}
+
+h3 {
+  margin-left: 55px; /* Adiciona margem à esquerda */
+  margin-top: 20px; /* Adiciona margem no topo */
+}
+
 .roupas form {
-  margin-top: 20px;
-  margin-left: 20px;
-  
-  }
-  
-  
-  button {
-    width: 90px; /*largutra*/
-    height: 25px; /*altura*/
-    margin-left: 50px; /*espaçamento para a direirta*/
-    margin-top: 20px;/* espaçamento acima*/
-    background-color:#D9D9D9;/*cor no botão*/
-  }
-  
-  
-
- input{
-  background-color:#D9D9D9;
-  }
-  
- 
-  
-  
-  footer{
-    background-color: rgb(214, 173, 198);
-    height: 110px;
-    margin-top: 20%;
-    padding-top: 20px;
-    padding-left: 40px;
-     
+  margin-top: 20px; /* Adiciona margem no topo do formulário */
+  margin-left: 20px; /* Adiciona margem à esquerda do formulário */
 }
 
-  
+button {
+  width: 90px; /* Define a largura do botão */
+  height: 25px; /* Define a altura do botão */
+  margin-left: 50px; /* Adiciona margem à esquerda do botão */
+  margin-top: 20px; /* Adiciona margem no topo do botão */
+  background-color: #D9D9D9; /* Define a cor de fundo do botão */
+}
+
+input {
+  background-color: #D9D9D9; /* Define a cor de fundo dos campos de entrada */
+}
+
+footer {
+  background-color: rgb(214, 173, 198); /* Define a cor de fundo do rodapé */
+  height: 110px; /* Define a altura do rodapé */
+  margin-top: 20%; /* Adiciona margem no topo do rodapé */
+  padding-top: 20px; /* Adiciona preenchimento interno no topo do rodapé */
+  padding-left: 40px; /* Adiciona preenchimento interno à esquerda do rodapé */
+}
